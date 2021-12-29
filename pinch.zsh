@@ -49,8 +49,8 @@ yt () {
 	fi
     else # audio playing insert url and play next
         mpc insert "${link}" 
-	mpc next
-	notify-send "Now Playing ♫" "${name}"
+	#mpc next
+	#notify-send "Now Playing ♫" "${name}"
     fi
 }
 
